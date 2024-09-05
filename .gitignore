@@ -1,0 +1,15 @@
+/.phpunit.cache
+/node_modules
+/todos
+/vendor
+composer.phar
+composer.lock
+package-lock.json
+bun.lockb
+.DS_Store
+Thumbs.db
+/phpunit.xml
+/.idea
+/.fleet
+/.vscode
+.phpunit.result.cache

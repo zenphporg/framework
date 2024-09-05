@@ -1,0 +1,53 @@
+{
+  "name": "zenphp/framework",
+  "description": "The core framework for ZenPHP applications.",
+  "keywords": [
+    "framework",
+    "zenphp",
+    "zen",
+    "laravel"
+  ],
+  "license": "MIT",
+  "homepage": "https://zen.foundation",
+  "support": {
+    "issues": "https://github.com/zenphporg/framework/issues",
+    "source": "https://github.com/zenphporg/framework"
+  },
+  "authors": [
+    {
+      "name": "SMV",
+      "email": "secondman@zenphp.org"
+    }
+  ],
+  "require": {
+    "php": "^8.3",
+    "ext-dom": "*",
+    "ext-json": "*",
+    "ext-simplexml": "*",
+    "composer/composer": "^2.7.2",
+    "laravel/framework": "^11.22",
+    "symfony/console": "^7.0",
+    "zenphp/fixr": "^1.0.2"
+  },
+  "autoload": {
+    "files": [
+      "src/helpers.php"
+    ],
+    "psr-4": {
+      "Zen\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.x-dev"
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "composer/package-versions-deprecated": true
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
