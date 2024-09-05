@@ -8,8 +8,7 @@
     "fix": "./vendor/bin/fixr",
     "test": "./vendor/bin/phpunit",
     "lint": "bunx lint-staged",
-    "cn": "composer update && bun update",
-    "prepare": "husky"
+    "cn": "composer update && bun update"
   },
   "type": "module",
   "devDependencies": {
